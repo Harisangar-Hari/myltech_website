@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ReactNode } from "react";
 
 export interface FadeInProps {
@@ -22,47 +22,38 @@ export function FadeIn({
   className,
   inViewMargin = "-50px",
 }: FadeInProps) {
-  const directions = {
-    up: { y: 20, x: 0 },
-    down: { y: -20, x: 0 },
-    left: { x: 20, y: 0 },
-    right: { x: -20, y: 0 },
-    none: { x: 0, y: 0 },
+  const directions: Record<string, { x?: number; y?: number }> = {
+    up: { y: 20 },
+    down: { y: -20 },
+    left: { x: 20 },
+    right: { x: -20 },
+    none: {},
   };
 
-  const initial = {
-    opacity: 0,
-    ...directions[direction],
-  };
-
-  const animate = {
-    opacity: 1,
-    x: 0,
-    y: 0,
-    transition: {
-      duration,
-      delay,
-      ease: "easeOut",
+  const variants: Variants = {
+    hidden: {
+      opacity: 0,
+      ...directions[direction],
+    },
+    show: {
+      opacity: 1,
+      x: 0,
+      y: 0,
+      transition: {
+        duration,
+        delay,
+        ease: "easeOut",
+      },
     },
   };
 
-  if (inView) {
-    return (
-      <motion.div
-        initial={initial}
-        whileInView={animate}
-        viewport={{ once: true, margin: inViewMargin as any }}
-        className={className}
-      >
-        {children}
-      </motion.div>
-    );
-  }
-
   return (
     <motion.div
-      initial={initial}
-      animate={animate}
+      variants={variants}
+      initial="hidden"
+      whileInView={inView ? "show" : undefined}
+      animate={!inView ? "show" : undefined}
+      viewport={inView ? { once: true, margin: inViewMargin } : undefined}
       className={className}
     >
       {children}
