@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ai-ml",
+    "title": "AI & Machine Learning",
+    "description": "Unlock the power of data with our advanced machine learning models and AI integrations.",
+    "icon": "Cpu",
+    "features": [
+      "Predictive Analytics",
+      "Natural Language Processing",
+      "Computer Vision",
+      "Automated Workflows"
+    ]
+  },
+  {
+    "id": "web-saas",
+    "title": "Web & SaaS Development",
+    "description": "Scalable, high-performance web applications tailored to your business needs.",
+    "icon": "Code",
+    "features": [
+      "Custom SaaS Platforms",
+      "Progressive Web Apps",
+      "E-Commerce Solutions",
+      "API Development & Integration"
+    ]
+  },
+  {
+    "id": "cloud-devops",
+    "title": "Cloud & DevOps",
+    "description": "Streamline your operations with robust cloud architecture and CI/CD pipelines.",
+    "icon": "Cloud",
+    "features": [
+      "Cloud Migration",
+      "Serverless Architecture",
+      "Infrastructure as Code",
+      "Continuous Deployment"
+    ]
+  },
+  {
+    "id": "ui-ux",
+    "title": "UI/UX Design",
+    "description": "Crafting intuitive and engaging user experiences that drive conversion and satisfaction.",
+    "icon": "Layout",
+    "features": [
+      "User Research & Testing",
+      "Wireframing & Prototyping",
+      "Design Systems",
+      "Responsive Web Design"
+    ]
+  }
+]

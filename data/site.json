@@ -1,0 +1,29 @@
+{
+  "name": "MYL-Tech-Solutions",
+  "description": "Production-grade IT solutions for the modern enterprise. We specialize in AI/ML, SaaS, Cloud architecture, and UI/UX design.",
+  "url": "https://myltech.example.com",
+  "nav": [
+    { "label": "Services", "href": "/services" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "About", "href": "/about" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "Careers", "href": "/careers" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "contact": {
+    "email": "testmail10@gmail.com",
+    "phone": "+94 XX XXX XXXX",
+    "address": "Colombo, Sri Lanka",
+    "responseTime": "We typically respond within 24 hours.",
+    "socials": [
+      { "platform": "LinkedIn", "url": "https://linkedin.com/company/myltech", "icon": "Linkedin" },
+      { "platform": "GitHub", "url": "https://github.com/myltech", "icon": "Github" },
+      { "platform": "Twitter", "url": "https://twitter.com/myltech", "icon": "Twitter" }
+    ]
+  },
+  "social": {
+    "twitter": "https://twitter.com/myltech",
+    "github": "https://github.com/myltech",
+    "linkedin": "https://linkedin.com/company/myltech"
+  }
+}

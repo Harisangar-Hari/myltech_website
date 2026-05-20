@@ -1,0 +1,27 @@
+[
+  {
+    "id": "project-nexus",
+    "title": "Nexus AI Platform",
+    "description": "An enterprise-grade platform for training and deploying custom language models securely on-premise.",
+    "image": "/images/projects/nexus.jpg",
+    "tags": ["AI/ML", "React", "Python", "Docker"],
+    "link": "https://example.com/nexus",
+    "github": "https://github.com/myltech/nexus"
+  },
+  {
+    "id": "project-aurora",
+    "title": "Aurora Cloud Sync",
+    "description": "A high-performance file synchronization service handling petabytes of data for Fortune 500 companies.",
+    "image": "/images/projects/aurora.jpg",
+    "tags": ["Cloud", "Go", "AWS", "Next.js"],
+    "link": "https://example.com/aurora"
+  },
+  {
+    "id": "project-zenith",
+    "title": "Zenith Workspace",
+    "description": "A collaborative workspace application with real-time editing and integrated video conferencing.",
+    "image": "/images/projects/zenith.jpg",
+    "tags": ["SaaS", "TypeScript", "WebRTC", "PostgreSQL"],
+    "link": "https://example.com/zenith"
+  }
+]

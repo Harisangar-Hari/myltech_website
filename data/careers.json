@@ -1,0 +1,78 @@
+{
+  "openPositions": [
+    {
+      "id": "senior-fullstack-001",
+      "title": "Senior Full Stack Engineer",
+      "type": "Full-time",
+      "location": "Remote / Colombo, Sri Lanka",
+      "department": "Engineering",
+      "experience": "3–5 years",
+      "description": "We are looking for a Senior Full Stack Engineer to join our growing team. You will be responsible for building scalable web applications and leading technical initiatives across multiple products.",
+      "responsibilities": [
+        "Build scalable web applications using Next.js and Node.js",
+        "Collaborate with design and product teams",
+        "Lead code reviews and mentor junior developers",
+        "Architect solutions for global SME clients"
+      ],
+      "requirements": [
+        "Strong TypeScript and React experience",
+        "Experience with cloud platforms (AWS or GCP)",
+        "Familiarity with CI/CD pipelines",
+        "Excellent communication skills"
+      ],
+      "tags": ["Next.js", "TypeScript", "Node.js", "AWS"]
+    },
+    {
+      "id": "ui-ux-designer-001",
+      "title": "UI/UX Designer",
+      "type": "Full-time",
+      "location": "Remote",
+      "department": "Design",
+      "experience": "2–4 years",
+      "description": "We are looking for a creative UI/UX Designer who thinks in systems. You will shape the visual identity and user experience of our core product offerings.",
+      "responsibilities": [
+        "Design product interfaces for web and mobile",
+        "Create and maintain design systems",
+        "Conduct user research and usability testing",
+        "Collaborate closely with engineers"
+      ],
+      "requirements": [
+        "Proficiency in Figma",
+        "Strong portfolio of SaaS or product design",
+        "Understanding of frontend constraints",
+        "Eye for micro-interactions and motion"
+      ],
+      "tags": ["Figma", "Design Systems", "UX Research", "Prototyping"]
+    },
+    {
+      "id": "ai-engineer-001",
+      "title": "AI/ML Engineer",
+      "type": "Full-time",
+      "location": "Remote",
+      "department": "AI",
+      "experience": "2–5 years",
+      "description": "Join our AI team to build intelligent features into client products. You will work on cutting-edge models and integrate them into production systems.",
+      "responsibilities": [
+        "Design and implement ML pipelines",
+        "Integrate LLMs into SaaS products",
+        "Optimize model performance and cost",
+        "Work with product teams on AI feature roadmaps"
+      ],
+      "requirements": [
+        "Python and PyTorch or TensorFlow experience",
+        "Experience with OpenAI or Gemini APIs",
+        "Understanding of RAG and vector databases",
+        "Strong problem-solving skills"
+      ],
+      "tags": ["Python", "LLMs", "RAG", "OpenAI"]
+    }
+  ],
+  "perks": [
+    { "icon": "Globe", "title": "100% Remote", "description": "Work from anywhere in the world." },
+    { "icon": "TrendingUp", "title": "Fast Growth", "description": "Grow with a startup that ships real products." },
+    { "icon": "Heart", "title": "Health Coverage", "description": "Medical coverage for you and your family." },
+    { "icon": "BookOpen", "title": "Learning Budget", "description": "$1,000/year for courses and conferences." },
+    { "icon": "Coffee", "title": "Async-First", "description": "No pointless meetings. We respect deep work." },
+    { "icon": "Zap", "title": "Latest Tools", "description": "We use the best tools available — no compromises." }
+  ]
+}

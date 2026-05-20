@@ -1,0 +1,35 @@
+[
+  {
+    "id": "alice-smith",
+    "name": "Alice Smith",
+    "role": "Chief Executive Officer",
+    "bio": "Alice has 15 years of experience leading tech startups to acquisition. She is passionate about leveraging AI to solve complex business problems.",
+    "avatar": "/images/team/alice.jpg",
+    "social": {
+      "twitter": "https://twitter.com/alicesmith",
+      "linkedin": "https://linkedin.com/in/alicesmith"
+    }
+  },
+  {
+    "id": "bob-jones",
+    "name": "Bob Jones",
+    "role": "Chief Technology Officer",
+    "bio": "A pioneer in cloud architecture, Bob previously led infrastructure teams at major tech giants before co-founding MYL-Tech.",
+    "avatar": "/images/team/bob.jpg",
+    "social": {
+      "github": "https://github.com/bobjones",
+      "linkedin": "https://linkedin.com/in/bobjones"
+    }
+  },
+  {
+    "id": "charlie-davis",
+    "name": "Charlie Davis",
+    "role": "Head of Design",
+    "bio": "Charlie brings a user-first approach to all projects, ensuring that every interface is both beautiful and highly functional.",
+    "avatar": "/images/team/charlie.jpg",
+    "social": {
+      "twitter": "https://twitter.com/charliedavis",
+      "linkedin": "https://linkedin.com/in/charliedavis"
+    }
+  }
+]
