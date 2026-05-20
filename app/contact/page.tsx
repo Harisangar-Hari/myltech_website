@@ -151,7 +151,7 @@ export default function ContactPage() {
               <h2 className="text-3xl font-bold tracking-tight">Frequently Asked Questions</h2>
             </div>
             
-            <Accordion type="single" collapsible className="w-full bg-card rounded-2xl border px-6 py-2 shadow-sm">
+            <Accordion  className="w-full bg-card rounded-2xl border px-6 py-2 shadow-sm">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left text-lg font-medium hover:text-violet-600">How quickly do you respond?</AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed">

@@ -73,7 +73,7 @@ export default async function BlogPostPage({ params }: Props) {
     <div className="flex flex-col min-h-screen pt-16">
       <article className="py-24">
         <div className="container px-4 md:px-6 mx-auto max-w-3xl">
-          <Button variant="ghost" asChild className="mb-8 -ml-4 text-muted-foreground hover:text-foreground">
+          <Button variant="ghost"  className="mb-8 -ml-4 text-muted-foreground hover:text-foreground">
             <Link href="/blog">
               <ChevronLeft className="w-4 h-4 mr-2" />
               Back to Blog
