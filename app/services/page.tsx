@@ -88,7 +88,7 @@ export default function ServicesPage() {
                     </ul>
 
                     <div className="mt-10">
-                      <Button asChild size="lg" className="bg-violet-600 hover:bg-violet-700">
+                      <Button size="lg" className="bg-violet-600 hover:bg-violet-700">
                         <Link href={`/contact?service=${service.id}`}>Consult With Us</Link>
                       </Button>
                     </div>

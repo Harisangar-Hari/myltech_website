@@ -32,7 +32,7 @@ export function FeaturedProjects() {
             </FadeIn>
           </div>
           <FadeIn direction="left" delay={0.2}>
-            <Button variant="outline" asChild>
+            <Button variant="outline">
               <Link href="/projects">View All Projects</Link>
             </Button>
           </FadeIn>

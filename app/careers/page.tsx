@@ -49,10 +49,10 @@ export default function CareersPage() {
             </p>
           </FadeIn>
           <FadeIn direction="up" delay={0.2} className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="rounded-full px-8 bg-violet-600 hover:bg-violet-700">
+            <Button size="lg" className="rounded-full px-8 bg-violet-600 hover:bg-violet-700">
               <a href="#positions">View Open Roles</a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="rounded-full px-8">
+            <Button  size="lg" variant="outline" className="rounded-full px-8">
               <Link href="/about">Learn About Us</Link>
             </Button>
           </FadeIn>
